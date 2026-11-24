@@ -46,51 +46,7 @@
     <p class="rv mt-4 max-w-xl text-neutral-600">Casos reales medidos en visualizaciones, alcance y prospectos generados.</p>
 
     <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      <!-- Tarjeta de referencia -->
-      <div class="rv group relative flex flex-col rounded-xl bg-slate-950 p-4 shadow-2xl transition-all duration-300 hover:scale-[1.02]">
-        <div class="absolute inset-0 rounded-xl bg-brand opacity-20 blur-sm transition-opacity duration-300 group-hover:opacity-30"></div>
-        <div class="absolute inset-px rounded-[11px] bg-slate-950"></div>
-        <div class="relative">
-          <div class="mb-4 flex items-center justify-between">
-            <div class="flex items-center gap-2">
-              <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-brand">
-                <svg class="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
-              </div>
-              <h3 class="text-sm font-semibold text-white">Burj Parfum</h3>
-            </div>
-            <span class="flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-1 text-xs font-medium text-emerald-500"><span class="h-1.5 w-1.5 rounded-full bg-emerald-500"></span>Live</span>
-          </div>
-
-          <!-- Espacio imagen / video (reemplaza por <video> o <img>) -->
-          <div class="mb-4 flex aspect-video w-full items-center justify-center rounded-lg border border-dashed border-slate-700 bg-slate-900/50 text-center text-xs text-slate-500">
-            <span>Imagen o video<br>del resultado</span>
-          </div>
-
-          <div class="mb-4 grid grid-cols-3 gap-2">
-            <div class="rounded-lg bg-slate-900/50 p-3">
-              <p class="text-xs font-medium text-slate-400">Visualizaciones</p>
-              <p class="text-lg font-semibold text-white">24.5K</p>
-            </div>
-            <div class="rounded-lg bg-slate-900/50 p-3">
-              <p class="text-xs font-medium text-slate-400">Alcance</p>
-              <p class="text-lg font-semibold text-slate-500"></p>
-            </div>
-            <div class="rounded-lg bg-slate-900/50 p-3">
-              <p class="text-xs font-medium text-slate-400">Leads</p>
-              <p class="text-lg font-semibold text-white">1.2K</p>
-            </div>
-          </div>
-          <p class="mb-4 text-sm leading-relaxed text-slate-400">Campañas en Meta Ads con contenido en video para atraer prospectos interesados.</p>
-          <div class="flex items-center justify-between">
-            <span class="text-xs font-medium text-slate-400">Últimos 7 días</span>
-            <a data-wa="Hola Santiago, vi sus resultados y quiero información." href="#" class="flex items-center gap-1 rounded-lg bg-brand px-3 py-1.5 text-xs font-medium text-white transition hover:bg-brandd">Quiero esto
-              <svg class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Casos adicionales: se generan desde el arreglo CASOS (ver script al final) -->
+      <!-- Todas las tarjetas se generan desde el arreglo CASOS (data/casos.js) con js/casos-modal.js -->
       <div id="casos" class="contents"></div>
     </div>
   </div>
@@ -124,7 +80,7 @@
         </ul>
         <div class="mt-6 rounded-xl bg-brand/5 p-4 ring-1 ring-brand/20">
           <p class="text-xs font-bold text-brand">Garantía</p>
-          <p class="mt-1 text-sm leading-relaxed">Garantizamos 300 clientes potenciales o trabajamos gratis hasta conseguirlo..</p>
+          <p class="mt-1 text-sm leading-relaxed">Garantizamos 100 clientes potenciales o trabajamos gratis hasta conseguirlo..</p>
         </div>
         <a data-wa="Hola Santiago, quiero información del plan CRECE." href="https://wa.link/142eok" class="mt-6 rounded-lg border border-brand px-5 py-3 text-center text-sm font-semibold text-brand transition hover:bg-brand hover:text-white">Solicitar por WhatsApp</a>
       </article>
